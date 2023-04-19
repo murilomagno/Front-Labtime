@@ -22,29 +22,33 @@ th,td {
 }
 
 th {
-  background-color: greenyellow;
+  background-color: #8a8787;
 }
-td{background-color: #61dafb}
+td{background-color: #ffffff
+}
 .titulo {
-  color: greenyellow;
+  color: #050505;
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   font-size: 56px
 }
-.barrapesquisa {
+.barraPesquisa {
   display: flex;
   align-items: center;
 }
 
-.pesquisaentrada {
+.pesquisaEntrada {
   flex: 1;
-  margin-right: 1px;
+  margin-right: 10px;
+  width: 500px;
+  height: 40px;
+  font-size: 40px;
+
 }
 
-.botaopesquisa {
+.botaoPesquisa {
   width: 100px;
+  height: 45px;
+  font-size: 20px;
 }
-
-
-
 
 
