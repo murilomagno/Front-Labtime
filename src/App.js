@@ -3,7 +3,9 @@ import axios from 'axios';
 import { Container, Row, Col, Input, Button, Table } from 'reactstrap';
 import './index.css';
 
+
 const API_URL = 'https://dev.labtime.ufg.br/selecao-2023/usuarios';
+
 
 function App() {
   const [listaUsuarios, defListaUsuarios] = useState([]);
@@ -42,7 +44,7 @@ function App() {
         </Row>
         <Row>
           <Col style={{ marginTop: '200px' }}>
-            <Table striped>
+            <Table>
               <thead>
               <tr>
                 <th>Nome completo</th>
@@ -80,6 +82,7 @@ function App() {
         </Row>
       </Container>
   );
+
 }
 
 export default App;
